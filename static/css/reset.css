@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'GoryeongStrawberry';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 버튼 기본 색상 지정 */
+:root {
+  --main: #f8333d;
+  --sunny: #ffda1e;
+  --cloudy: #ece3e2;
+  --rainy: #3cbcc0;
+  --snowy: #0d1b46;
+  --basic: rgba(0, 0, 0, 0.8);
+  --black: rgb(50, 50, 50);
+  --black-3: rgba(50, 50, 50, 0.3);
+}
+::selection {
+  background: var(--main);
+  color: #fff;
+}
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+@import url(./reset.css);
+
+body{
+  /* width:100%;
+  height:100vh;
+  overflow:hidden;
+  font-family:"nanumsquare";
+  position: relative;
+  margin:0 */
+}
+/* 텍스트 입력창 사이즈 조절 방지 */
+textarea{
+resize: none;
+
+}
+
+div{
+  box-sizing: border-box;
+}
+p{
+  font-size: 16px;
+  margin: 0;
+}
+h2{
+  font-size: 2.5vw;
+}
+h5{
+  font-style: 1.2vw;
+}
